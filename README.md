@@ -1,98 +1,98 @@
 🤖 AI Career Assistant & Job Recommendation System
 
-An AI-powered career assistance platform that analyzes resumes and recommends relevant job opportunities using Natural Language Processing (NLP) and semantic similarity search.
-
-The system also includes a resume scoring module and a career FAQ chatbot to help users improve their resumes and get answers to career-related questions.
-
-⚠️ Project Status: 🚧 Currently in progress – deployment has not been completed yet.
+    An AI-powered career assistance platform that analyzes resumes and recommends relevant job opportunities using Natural Language Processing (NLP) and semantic similarity search.
+    
+    The system also includes a resume scoring module and a career FAQ chatbot to help users improve their resumes and get answers to career-related questions.
+    
+    ⚠️ Project Status: 🚧 Currently in progress – deployment has not been completed yet.
 
 
 📌 Project Overview
 
-This project aims to build an intelligent system that can:
-
-1️⃣ Analyze a user's resume content
-
-2️⃣ Recommend relevant job opportunities
-
-3️⃣ Evaluate the strength of a resume
-
-4️⃣ Provide career-related answers through a chatbot
+    This project aims to build an intelligent system that can:
+    
+    1️⃣ Analyze a user's resume content
+    
+    2️⃣ Recommend relevant job opportunities
+    
+    3️⃣ Evaluate the strength of a resume
+    
+    4️⃣ Provide career-related answers through a chatbot
 
 The system uses modern AI techniques such as Sentence Transformers and FAISS vector search for efficient job matching.
 
 
 ✨ Key Features
 
-1️⃣ Job Recommendation System
-  
-  📄 Recommends jobs based on resume content
-  
-  🧠 Uses Sentence Transformers (BERT embeddings) for text representation
-  
-  ⚡ Uses FAISS vector similarity search for fast job matching
-  
-  📊 Filters the most relevant job roles from a dataset
+    1️⃣ Job Recommendation System
+      
+        📄 Recommends jobs based on resume content
+        
+        🧠 Uses Sentence Transformers (BERT embeddings) for text representation
+        
+        ⚡ Uses FAISS vector similarity search for fast job matching
+        
+        📊 Filters the most relevant job roles from a dataset
 
-2️⃣ Resume Scoring System
-
-  📝 Evaluates resumes based on multiple factors:
-  
-    ✔️ Skills
+    2️⃣ Resume Scoring System
     
-    ✔️ Education
+      📝 Evaluates resumes based on multiple factors:
+      
+        ✔️ Skills
+        
+        ✔️ Education
+        
+        ✔️ Experience
+        
+        ✔️ Certifications
+
+    📈 Generates a resume strength score (0–100)
     
-    ✔️ Experience
+    💡 Helps users understand how strong their resume is
+
+
+    3️⃣ Career FAQ Chatbot
     
-    ✔️ Certifications
+      💬 Answers career-related questions
+      
+      🔍 Uses semantic search to find the best answer
+      
+      📚 Matches user questions with stored FAQ data
+      
+      4️⃣ Streamlit Web Interface
+      
+      🌐 Interactive Streamlit-based UI
+      
+      👨‍💻 Easy-to-use interface for:
 
-📈 Generates a resume strength score (0–100)
-
-💡 Helps users understand how strong their resume is
-
-
-3️⃣ Career FAQ Chatbot
-
-  💬 Answers career-related questions
-  
-  🔍 Uses semantic search to find the best answer
-  
-  📚 Matches user questions with stored FAQ data
-  
-  4️⃣ Streamlit Web Interface
-  
-  🌐 Interactive Streamlit-based UI
-  
-  👨‍💻 Easy-to-use interface for:
-
-    Resume analysis
-    
-    Job recommendations
-    
-    Chatbot interaction
+          Resume analysis
+          
+          Job recommendations
+          
+          Chatbot interaction
 
 
 🛠️ Tech Stack
 
-  💻 Programming & Framework
-  
-    🐍 Python
+      💻 Programming & Framework
+      
+        🐍 Python
+        
+        🌐 Streamlit
+      
+      🤖 AI / NLP
     
-    🌐 Streamlit
-  
-  🤖 AI / NLP
-
-    Sentence Transformers (BERT)
+        Sentence Transformers (BERT)
+        
+        FAISS Similarity Search
     
-    FAISS Similarity Search
-
-📊 Data Processing
-
-    Pandas
+    📊 Data Processing
     
-    NumPy
-
-Scikit-learn
+        Pandas
+        
+        NumPy
+    
+        Scikit-learn
 
 📂 Project Structure
 
