@@ -98,59 +98,59 @@ Scikit-learn
 
 📦 AI-Career-Assistant
 
-│
-├── chatbot.py            
-├── model.py              
-├── resume_scorer.py     
-├── test.py               
-├── requirements.txt     
-│
-├── career_faq.csv        
-├── JobsFE.csv            
-│
-└── CleanedJobs.ipynb     
+    │
+    ├── chatbot.py            
+    ├── model.py              
+    ├── resume_scorer.py     
+    ├── test.py               
+    ├── requirements.txt     
+    │
+    ├── career_faq.csv        
+    ├── JobsFE.csv            
+    │
+    └── CleanedJobs.ipynb     
 
 
 ⚙️ Installation Guide
-
-  1️⃣ Clone the Repository
   
-  git clone https://github.com/your-username/ai-career-assistant.git
+    1️⃣ Clone the Repository
+    
+    git clone https://github.com/your-username/ai-career-assistant.git
+    
+    cd ai-career-assistant
+    
+    2️⃣ Install Dependencies
+    
+    pip install -r requirements.txt
+    
+    3️⃣ Run the Application
   
-  cd ai-career-assistant
-  
-  2️⃣ Install Dependencies
-  
-  pip install -r requirements.txt
-  
-  3️⃣ Run the Application
-  
-  streamlit run test.py
-  
+    streamlit run test.py
+    
   🚀 Future Improvements
   
 
-Planned improvements for upcoming versions:
-
-🔹 Deploy the application online
-
-🔹 Improve resume parsing accuracy
-
-🔹 Add more job datasets
-
-🔹 Integrate advanced NLP models
-
-🔹 Improve Streamlit UI/UX
-
-🔹 Add user authentication system
-
-🔹 Enable real-time job scraping
+    Planned improvements for upcoming versions:
+    
+    🔹 Deploy the application online
+    
+    🔹 Improve resume parsing accuracy
+    
+    🔹 Add more job datasets
+    
+    🔹 Integrate advanced NLP models
+    
+    🔹 Improve Streamlit UI/UX
+    
+    🔹 Add user authentication system
+    
+    🔹 Enable real-time job scraping
 
 
 📊 Project Status
 
-🚧 Currently Under Development
-
-This project is still progressing and not yet deployed.
-
-Additional features and improvements will be added in future updates.
+    🚧 Currently Under Development
+    
+    This project is still progressing and not yet deployed.
+    
+    Additional features and improvements will be added in future updates.
