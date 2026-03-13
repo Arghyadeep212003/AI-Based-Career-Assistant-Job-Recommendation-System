@@ -48,9 +48,9 @@
         
         ✔️ Certifications
 
-    📈 Generates a resume strength score (0–100)
+     📈 Generates a resume strength score (0–100)
     
-    💡 Helps users understand how strong their resume is
+     💡 Helps users understand how strong their resume is
 
 
     3️⃣ Career FAQ Chatbot
