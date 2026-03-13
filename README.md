@@ -61,7 +61,9 @@ Tech Stack
    Scikit-learn
 
 
+
 Project Structure
+
 ├── chatbot.py              
 ├── model.py                
 ├── resume_scorer.py      
