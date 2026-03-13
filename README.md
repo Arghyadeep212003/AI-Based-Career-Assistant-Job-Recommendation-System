@@ -61,7 +61,6 @@ Tech Stack
    Scikit-learn
 
 
-
 Project Structure
 
 ├── chatbot.py              
@@ -72,7 +71,6 @@ Project Structure
 ├── career_faq.csv         
 ├── JobsFE.csv            
 └── CleanedJobs.ipynb 
-
 
 Installation
 
