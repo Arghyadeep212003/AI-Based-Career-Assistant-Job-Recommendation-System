@@ -19,7 +19,7 @@
     
     4️⃣ Provide career-related answers through a chatbot
 
-The system uses modern AI techniques such as Sentence Transformers and FAISS vector search for efficient job matching.
+    The system uses modern AI techniques such as Sentence Transformers and FAISS vector search for efficient job matching.
 
 
 ✨ Key Features
