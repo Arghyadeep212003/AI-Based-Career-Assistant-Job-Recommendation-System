@@ -1,110 +1,126 @@
-AI Career Assistant & Job Recommendation System
+🤖 AI Career Assistant & Job Recommendation System
 
-Overview
+An AI-powered career assistance platform that analyzes resumes and recommends relevant job opportunities using Natural Language Processing (NLP) and semantic similarity search.
 
-This project is an AI-powered Career Assistant that helps users analyze their resumes and receive relevant job recommendations. The system uses Natural Language Processing (NLP) and semantic similarity search to match resumes with suitable job roles.
-The project also includes a resume scoring system and a career FAQ chatbot to assist users with career-related questions.
+The system also includes a resume scoring module and a career FAQ chatbot to help users improve their resumes and get answers to career-related questions.
 
-⚠️ Note: This project is currently under development and still progressing. Deployment has not been completed yet.
+⚠️ Project Status: 🚧 Currently in progress – deployment has not been completed yet.
 
+📌 Project Overview
 
-Features
-1. Job Recommendation System
-   
-   Recommends jobs based on the content of a user's resume.
-   
-   Uses Sentence Transformers embeddings to represent job descriptions and resumes.
-   
-   Uses FAISS similarity search to find the most relevant jobs.
+This project aims to build an intelligent system that can:
 
-3. Resume Scoring
-   
-   Evaluates resumes based on:
-   
-   Skills
-   
-   Education
-   
-   Experience
-   
-   Certifications
+1️⃣ Analyze a user's resume content
+2️⃣ Recommend relevant job opportunities
+3️⃣ Evaluate the strength of a resume
+4️⃣ Provide career-related answers through a chatbot
 
-   Generates a score to indicate resume strength.
+The system uses modern AI techniques such as Sentence Transformers and FAISS vector search for efficient job matching.
 
-4. Career FAQ Chatbot
-   
-   Answers career-related questions.
-   
-   Uses semantic search to match user questions with stored FAQs.
+✨ Key Features
+1️⃣ Job Recommendation System
 
-6. Streamlit Interface
+📄 Recommends jobs based on resume content
 
-   Simple user interface built with Streamlit.
-   
-   Allows users to interact with the recommendation system and chatbot.
+🧠 Uses Sentence Transformers (BERT embeddings) for text representation
 
+⚡ Uses FAISS vector similarity search for fast job matching
 
-Tech Stack
+📊 Filters the most relevant job roles from a dataset
 
-   Python
-   
-   Streamlit
-   
-   Sentence Transformers (BERT)
-   
-   FAISS
-   
-   Pandas
-   
-   NumPy
+2️⃣ Resume Scoring System
 
-   Scikit-learn
+📝 Evaluates resumes based on multiple factors:
 
+✔️ Skills
 
-Project Structure
+✔️ Education
 
-├── chatbot.py              
-├── model.py                
-├── resume_scorer.py      
-├── test.py                
-├── requirements.txt       
-├── career_faq.csv         
-├── JobsFE.csv            
-└── CleanedJobs.ipynb 
+✔️ Experience
 
-Installation
+✔️ Certifications
 
-   Clone the repository:
-   
-   git clone https://github.com/your-username/ai-career-assistant.git
-   cd ai-career-assistant
-   
-   Install dependencies:
-   
-   pip install -r requirements.txt
-   
-   Run Streamlit app:
-   
-   streamlit run test.py
+📈 Generates a resume strength score (0–100)
 
+💡 Helps users understand how strong their resume is
 
-Future Improvements:
+3️⃣ Career FAQ Chatbot
 
-   Deploy the application online
-   
-   Improve resume parsing
-   
-   Add more job datasets
-   
-   Implement advanced NLP models
-   
-   Improve UI/UX of the Streamlit interface
-   
-   Add user authentication
+💬 Answers career-related questions
 
+🔍 Uses semantic search to find the best answer
 
-Status
+📚 Matches user questions with stored FAQ data
 
-🚧 Project Status: In Progress
+4️⃣ Streamlit Web Interface
 
-The system is currently under development and testing. Deployment and additional features will be added in future updates.
+🌐 Interactive Streamlit-based UI
+
+👨‍💻 Easy-to-use interface for:
+
+Resume analysis
+
+Job recommendations
+
+Chatbot interaction
+
+🛠️ Tech Stack
+💻 Programming & Framework
+
+🐍 Python
+
+🌐 Streamlit
+
+🤖 AI / NLP
+
+Sentence Transformers (BERT)
+
+FAISS Similarity Search
+
+📊 Data Processing
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+📂 Project Structure
+📦 AI-Career-Assistant
+│
+├── chatbot.py            # Career FAQ chatbot
+├── model.py              # Job recommendation system
+├── resume_scorer.py      # Resume scoring module
+├── test.py               # Streamlit application
+├── requirements.txt      # Project dependencies
+│
+├── career_faq.csv        # FAQ dataset
+├── JobsFE.csv            # Job dataset
+│
+└── CleanedJobs.ipynb     # Data preprocessing notebook
+⚙️ Installation Guide
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/ai-career-assistant.git
+cd ai-career-assistant
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+3️⃣ Run the Application
+streamlit run test.py
+🚀 Future Improvements
+
+Planned improvements for upcoming versions:
+
+🔹 Deploy the application online
+🔹 Improve resume parsing accuracy
+🔹 Add more job datasets
+🔹 Integrate advanced NLP models
+🔹 Improve Streamlit UI/UX
+🔹 Add user authentication system
+🔹 Enable real-time job scraping
+
+📊 Project Status
+
+🚧 Currently Under Development
+
+This project is still progressing and not yet deployed.
+Additional features and improvements will be added in future updates.
