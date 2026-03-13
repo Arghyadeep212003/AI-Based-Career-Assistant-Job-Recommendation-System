@@ -1,6 +1,7 @@
 🤖 AI Career Assistant & Job Recommendation System
 
-    An AI-powered career assistance platform that analyzes resumes and recommends relevant job opportunities using Natural Language Processing (NLP) and semantic similarity search.
+    An AI-powered career assistance platform that analyzes resumes and recommends relevant job opportunities using Natural Language Processing (NLP) 
+    and semantic similarity search.
     
     The system also includes a resume scoring module and a career FAQ chatbot to help users improve their resumes and get answers to career-related questions.
     
